@@ -3,11 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
+    "angular": "^1.5.9",
     "jest": "^17.0.3",
     "lodash": "^4.17.2",
+    "moment": "^2.17.0",
     "ts-jest": "^17.0.1",
-    "typescript": "^2.0.10"
+    "ts-loader": "^1.2.2",
+    "typescript": "^2.0.10",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
   },
   "jest": {
     "transform": {
